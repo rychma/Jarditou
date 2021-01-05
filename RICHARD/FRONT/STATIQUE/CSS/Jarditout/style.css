@@ -1,0 +1,53 @@
+body{ background-color:white;font-family: 'Times New Roman', Times, serif;padding:0px;margin:0px;position: fixed;display: block; }
+
+#titre h3{ text-align: center;align-content: flex-end; }
+
+.menu{ background-color: rgb(15, 1, 1);width: 100%;height: 50px;margin-bottom: 5px; }
+  .menu li{ float: left;text-align: left;justify-content: space-around; }
+    .menu li a{ text-decoration:underline;color:white;display: block;padding: 15px 10px; }
+        #index1 h2{   display: block;
+                      font-size: 1.5em;
+                      margin-block-start: 0.83em;
+                      margin-block-end: 0.83em;
+                      margin-inline-start: 0px;
+                      margin-inline-end: 0px;font-weight: bold;  }
+       
+       
+.colonne{ display:flex; }   
+        .colonne1{  width: 100px;height:180px;padding: 10%;background-color: rgb(129, 126, 131);float: right;order: 1; }
+        p{ margin: 0;padding: 0%;font-style:normal;text-align:left; }
+        #presentation{ padding: 0%; }
+
+
+hr{ margin-top: 1px;}        
+
+.menubas{ background-color: black;width: 100%;height: 10px;margin-top:5px;}  
+   .menubas li{ float: left;text-align: left;justify-content: space-around; }
+        .menubas li a{ text-decoration:underline;color:rgb(25, 8, 180);display: block;padding: 15px 10px; }
+        
+
+button{ justify-items: flex-end; }
+
+#Contacter{  width: 500px;height: 300px;background-color: chocolate;  }
+    
+#formcontact h3{
+        
+        font-style:normal;
+    }
+    
+header #Contact{
+        padding-top: 0px;
+    }
+
+.identité{padding: 1% 6%;}
+
+.button{
+    margin: 10px 5px;
+}
+@media screen and (max-width:768px)
+{
+    .colonne1{
+        display:block;
+    }
+}
+        

@@ -1,0 +1,131 @@
+@media screen and (max-width:768)
+{
+    body{background-color:white;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        display: block;    
+    }
+    p {
+        margin: 0;
+        padding-top: 25%;
+        font-style:normal;
+        text-align:left;
+        
+        }
+    ul {
+        margin: 0;
+        padding: 0;
+        }
+    a {
+        justify-content: space-around;
+        }
+    #img {
+        margin-bottom: 10px;
+    }    
+    header p{
+            text-align: center;
+            padding-top:  1%;
+            margin-top: 5%;
+        }
+    Header li {
+        float: left;
+        justify-content: space-around;
+        }
+    h2{display: block;
+            font-size: 1.5em;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;}
+    header li a {
+        text-decoration:none;
+        color:white;
+        justify-content: space-around;
+        display: block;
+        text-align: center;
+        padding: 15px 10px;
+        }
+    
+    nav {
+        background-color: rgb(15, 1, 1);
+        position:relative;
+        width: 100%;
+        height: 70px;
+        margin-bottom: 5px;
+        }
+    
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        padding: 0% ;
+        display: flex;
+        margin-top: 0.5%;
+        }
+    footer li a {
+        text-decoration:none;
+        color:white;
+        justify-content: space-around;
+        display: block;
+        text-align: center;
+        padding: 15px 10px;
+        }
+    
+    footer li{
+        float: left;
+        justify-content: space-around;
+        }
+    
+    
+    #titre h3{ text-align: center; }
+    
+    #presentation{
+        padding: 0%;
+        }
+    #textedescriptif h2{
+        color:black;
+        }
+    #textedescriptif p{padding: 1%;}
+    footer li a{ color: rgb(239, 243, 234);}
+    button{
+        justify-items: flex-end;
+        }
+    .colonne1{
+            width: 200px;
+            height: 300px;
+            padding: 10%;
+            background-color: rgb(129, 126, 131);
+            float: right;
+            order: 1;
+        }
+    .colonne{
+        display:flex;
+        }
+    #Contacter{
+            width: 500px;
+            height: 300px;
+            background-color: chocolate;
+        }
+        
+    #formcontact h3{
+            color:darkorchid;
+            font-style: italic;
+        }
+        
+    header #Contact{
+            padding-top: 0px;
+        }
+    legend input {
+            justify-content: right;
+        }
+    .identité{padding: 2% 4%;}
+    
+    .button{
+        margin: 10px 5px;
+    }
+}     
+
+

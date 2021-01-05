@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Jarditout</title>
+</head>
+<!----------------------------------------Traitement de la partie Navigation-------------------------------------------->
+<!---------------Remarque: cette partie reste la même sur toutes les pages parce qu'elle ne change pas------------------>
+<body>
+       <header> 
+                      <img src="../Jarditout/images/jarditou_logo.jpg" alt="Jarditout_Logo"width="25%" height="25%" title=" La qualité depuis 70 ans">
+                      <!--<p> La qualité depuis 70 ans </p>-->
+                      <h5>La qualité depuis 70 ans</h5>
+                <nav>
+                    <ul>
+                        <li><a href="Accueil.html"> Accueil </a></li>
+                        <li><a href="Tableaux.html"> Tableau </a></li>
+                        <li><a href="Contact.html">  Contact </a></li>
+                    </ul>
+                </nav>   
+                        <img src="../Jarditout/images/promotion.jpg" alt="Promotion" max-width="100%" height="auto" title="Promotion">
+                        <div id="Contact"><h3> Contact </h3></div>
+       </header>
+<hr>    
+
+<!-----------------------------------------Traitement de la partie formulaireContact----------------------------------------------->
+        <section id="Contact">
+            <h3> Ces zones sont obligatoires </h3>
+            <form id="formcontact" method="POST">
+            <fieldset>
+                <legend> Vos coordonnées </legend>
+            
+                        <label for="nom">Nom*:</label>
+                                                      <input type="text" name="nom" id="nom" placeholder="Nom" required ><br>
+                        <label for="prénom">Prénom*:</label>
+                                                            <input type="text" name="prénom" id="prénom" placeholder="Prénom" required><br>
+                        <label for="Sexe">Sexe*</label>                             
+                                                       <input type="radio" name="Sexe" value="Féminin"> Féminin
+                                                       <input type="radio" name="Sexe" value="Masculin"> Masculin<br>
+                        <label for= "datedenaissance">Date de naissance*:</label>
+                                                       <input type="date" name="date de naissance" placeholder="Date de naissance" required><br>
+                        <label for="codepostal">Code postal*:</label>
+                                                                     <input type="text" name="code postal" placeholder="Code postal" required><br>
+                        <label for="adresse">Adresse:</label>
+                                                             <input type="text" name="adresse"><br>
+                        <label for="ville">Ville:</label>
+                                                         <input type="text" name="ville"><br>
+                        <label for="e-mail">E-mail*:</label>
+                                                            <input type="email" name="e-mail" placeholder="E-mail" required><br>
+
+            </fieldset>    
+            <fieldset>
+                <legend> Votre demande </legend>
+
+                <label for="sujet"> Sujet* </label>
+                          <select id="sujet" size="4">
+                              <option value=""selected>Vueillez séléctionner un sujet</option>
+                              <option value="Mes commandes">Mes commandes</option>
+                              <option value="Question sur un produit">Question sur un produit</option>
+                              <option value="Réclamation">Réclamation</option>
+                              <option value="Autres">Autres</option>
+                          </select><br>
+                <label for="question">Votre question*</label>
+                          <textarea name="commentaires" rows="5" cols="30"></textarea>
+            </fieldset>   
+            
+            <input type="checkbox" name="conditions" required> <label for="accepterformulaire">* J'accepte le traitement informatique de ce formulaire</label><br><br>
+            <button>Envoyer</button>
+            <button>Annuler</button>
+            </form>
+        </section>
+<hr>
+<!-----------------------------------Traitement partie Bas de page-------------------------------------------->
+    <footer>
+        <section id="basdepage">
+                <ul>
+                    <li><a href="Mentionlégales.html" title="Mention"> Mention légale </a></li>
+                    <li><a href="Horaires.html" title="Horaires">  Horaires </a></li>
+                    <li><a href="Plandusite.jpg" title="Plan du site">  Plan du site </a></li>
+                </ul>
+        </section>
+        <p>&#169 RichardBT</p>
+    </footer>
+</body>
+</html>
